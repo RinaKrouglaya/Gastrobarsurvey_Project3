@@ -319,11 +319,9 @@ public class MainActivity extends AppCompatActivity {
      * the methods called when the button "Next" is pressed for passing from the last_surveyActivity to the final_greeting
      */
     public void surveyFinal(View view) {
-        boolean trial_check = true;
-        if (trial_check) {
+
             setContentView (R.layout.final_greeting);
-        } else
-            Toast.makeText (this, R.string.if_no_action, Toast.LENGTH_SHORT).show ();
+
 
     }
 
