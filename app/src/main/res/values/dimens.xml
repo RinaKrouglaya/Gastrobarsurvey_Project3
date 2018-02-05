@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="biggerTextSize">35sp</dimen>
+    <dimen name="smallerTextSize">23sp</dimen>
+    <dimen name="smallTextMargin_horizontal">10dp</dimen>
+    <dimen name="inner_margin">10dp</dimen>
+    <dimen name="minTextSize">18sp</dimen>
+    <dimen name="spinnerMargin">16dp</dimen>
+
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+
+
+    <dimen name="shadow_dimension">5.0</dimen>
+    <dimen name="shadow_radius">1.0</dimen>
+    <dimen name="verySmallTextSize">13sp</dimen>
+    <dimen name="below_ornament">65dp</dimen>
+    <dimen name="center_dimension">100dp</dimen>
+    <dimen name="big_center_dimension">180dp</dimen>
+    <dimen name="large_logo">80sp</dimen>
+</resources>

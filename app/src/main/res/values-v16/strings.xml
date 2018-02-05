@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_time_customer">First time customer</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="send">Send</string>
+</resources>

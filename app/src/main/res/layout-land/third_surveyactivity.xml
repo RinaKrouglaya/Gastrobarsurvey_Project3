@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bglandscape" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/ornup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin5"/>
+
+        <TextView
+            android:id="@+id/q2_header"
+            style="@style/smallerTextStyle"
+            android:layout_marginTop="65dp"
+            android:gravity="center"
+            android:text="@string/q2_header"
+
+            />
+
+        <TextView
+            android:id="@+id/q2"
+            style="@style/minTextStyle"
+            android:layout_below="@id/q2_header"
+            android:text="@string/q2_text" />
+
+        <RadioGroup
+            android:id="@+id/group_q2"
+            style="@style/radiogroupStyle"
+            android:layout_below="@id/q2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/optionA_q2"
+                style="@style/radiobuttonStyle"
+                android:onClick="check_q2"
+                android:text="@string/ans1_q2" />
+
+            <RadioButton
+                android:id="@+id/optionB_q2"
+                style="@style/radiobuttonStyle"
+                android:onClick="check_q2"
+                android:text="@string/ans2_q2" />
+
+            <RadioButton
+                android:id="@+id/optionC_q2"
+                style="@style/radiobuttonStyle"
+                android:onClick="check_q2"
+                android:text="@string/ans3_q2" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q3"
+            style="@style/minTextStyle"
+            android:layout_below="@id/group_q2"
+            android:text="@string/q3_text" />
+
+        <RadioGroup
+            android:id="@+id/group_q3"
+            style="@style/radiogroupStyle"
+            android:layout_below="@id/q3"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/optionA_q3"
+                style="@style/radiobuttonStyle"
+                android:onClick="check_q3"
+                android:text="@string/ans1_q2" />
+
+            <RadioButton
+                android:id="@+id/optionB_q3"
+                style="@style/radiobuttonStyle"
+                android:onClick="check_q3"
+                android:text="@string/ans2_q2" />
+
+            <RadioButton
+                android:id="@+id/optionC_q3"
+                style="@style/radiobuttonStyle"
+                android:onClick="check_q3"
+                android:text="@string/ans3_q2" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/LowerButtonsStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawableTop="@drawable/arrowr"
+            android:onClick="surveyForth"
+            android:text="@string/next" />
+
+        <ImageView
+            android:id="@+id/waiter_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/next_button"
+            android:layout_toRightOf="@id/previous_button"
+            android:src="@drawable/waiter" />
+
+        <Button
+            android:id="@+id/previous_button"
+            style="@style/LowerButtonsStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/group_q3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignStart="@+id/group_q3"
+            android:drawableTop="@drawable/arrowl"
+            android:onClick="backToSecond"
+            android:text="@string/previous" />
+
+            </RelativeLayout>
+</ScrollView>

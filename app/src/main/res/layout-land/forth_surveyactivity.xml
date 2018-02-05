@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bglandscape" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/ornup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin5"/>
+
+        <ImageView
+            android:id="@+id/wine_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/below_ornament"
+            android:layout_toLeftOf="@id/next_button"
+            android:layout_toRightOf="@id/previous_button"
+            android:src="@drawable/wine" />
+
+        <TextView
+            android:id="@+id/q4_header"
+            style="@style/smallerTextStyle"
+            android:layout_marginTop="@dimen/below_ornament"
+            android:gravity="center"
+            android:text="@string/q4_header" />
+
+        <TextView
+            android:id="@+id/q4"
+            style="@style/minTextStyle"
+            android:layout_below="@id/q4_header"
+            android:text="@string/q4_text" />
+
+        <Spinner
+            android:id="@+id/bev_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q4"
+            android:layout_marginLeft="@dimen/spinnerMargin"
+            android:layout_marginTop="@dimen/spinnerMargin"
+            android:background="@drawable/bgspinner"></Spinner>
+
+        <TextView
+            android:id="@+id/q4_text2"
+            style="@style/minTextStyle"
+            android:layout_below="@id/bev_spinner"
+            android:layout_marginTop="@dimen/margin20"
+            android:text="@string/q4_text2" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/customer_name_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q4_text2"
+            android:layout_marginTop="@dimen/margin5"
+            android:textColorHint="@color/hintColor">
+
+            <EditText
+                android:id="@+id/favorite_bev"
+                style="@style/entryButtonStyle"
+                android:layout_alignTop="@+id/customer_name_input_layout"
+                android:hint="@string/bev_insert"
+                android:imeOptions="flagNoExtractUi" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/LowerButtonsStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawableTop="@drawable/arrowr"
+            android:onClick="surveyFifth"
+            android:text="@string/next" />
+
+        <Button
+            android:id="@+id/previous_button"
+            style="@style/LowerButtonsStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:drawableTop="@drawable/arrowl"
+            android:onClick="backToThird"
+            android:text="@string/previous" />
+
+    </RelativeLayout>
+</ScrollView>

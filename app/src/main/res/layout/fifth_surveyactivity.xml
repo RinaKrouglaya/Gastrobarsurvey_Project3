@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bgportreit" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/ornup" />
+
+        <TextView
+            android:id="@+id/q5"
+            style="@style/smallerTextStyle"
+            android:layout_marginLeft="@dimen/margin20"
+            android:layout_marginTop="@dimen/below_ornament"
+            android:text="@string/q5_text" />
+
+        <CheckBox
+            android:id="@+id/ans1_q5"
+            style="@style/minTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q5"
+            android:layout_marginTop="@dimen/margin5"
+            android:paddingLeft="@dimen/margin20"
+            android:text="@string/ans1_q4" />
+
+        <CheckBox
+            android:id="@+id/ans2_q5"
+            style="@style/minTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ans1_q5"
+            android:layout_marginTop="@dimen/margin5"
+            android:paddingLeft="@dimen/margin20"
+            android:text="@string/ans2_q4" />
+
+
+        <CheckBox
+            android:id="@+id/ans3_q5"
+            style="@style/minTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ans2_q5"
+            android:layout_marginTop="@dimen/margin5"
+            android:paddingLeft="@dimen/margin20"
+            android:text="@string/ans3_q4" />
+
+        <CheckBox
+            android:id="@+id/ans4_q5"
+            style="@style/minTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ans3_q5"
+            android:layout_marginTop="@dimen/margin5"
+            android:paddingLeft="@dimen/margin20"
+            android:text="@string/ans4_q4" />
+
+        <CheckBox
+            android:id="@+id/ans5_q5"
+            style="@style/minTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ans4_q5"
+            android:layout_marginTop="@dimen/margin5"
+            android:paddingLeft="@dimen/margin20"
+            android:text="@string/ans5_q4" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/customer_name_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/ans5_q5"
+            android:layout_toRightOf="@+id/ans5_q5"
+            android:textColorHint="@color/hintColor">
+
+            <EditText
+                android:id="@+id/other_recommendations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:hint="..."
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textCapWords"
+                android:lines="3"
+                android:textStyle="bold|italic" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/LowerButtonsStyle"
+            android:layout_above="@+id/orn_down"
+            android:layout_alignParentRight="true"
+            android:drawableTop="@drawable/arrowr"
+            android:onClick="surveyLast"
+            android:text="@string/next" />
+
+        <Button
+            android:id="@+id/previous_button"
+            style="@style/LowerButtonsStyle"
+            android:layout_above="@+id/orn_down"
+            android:layout_alignParentLeft="true"
+            android:drawableTop="@drawable/arrowl"
+            android:onClick="backToForth"
+            android:text="@string/previous" />
+
+        <ImageView
+            android:id="@+id/orn_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/orndown" />
+    </RelativeLayout>
+</ScrollView>

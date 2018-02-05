@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Gastrobarsurvey</string>
+    <string name="welcome1">Welcome, dear customer!</string>
+    <string name="welcome2">Please participate in our survey.</string>
+    <string name="button_proceed">   Proceed   </string>
+    <string name="button_no">No, thank you</string>
+    <string name="text1">Thank you for taking the time and participating in this survey. Your answers and feedback will help us improve the quality of services provided.</string>
+    <string name="name_insert">Please insert your name</string>
+
+
+
+    <string name="q1">How often do you dine with us ?</string>
+    <string name="ans1_q1">Daily</string>
+    <string name="ans2_q1">Weekly</string>
+    <string name="ans3_q1">Monthly</string>
+    <string name="ans4_q1">Once in three months </string>
+    <string name="ans5_q1">Other </string>
+
+    <string name="if_no_action">Please select one of the options above </string>
+
+
+
+    <string name="q2_header">Our Servers </string>
+    <string name="q2_text">1. Were the servers attentive and available when you needed them? </string>
+    <string name="q3_text">2. Was your server knowledgeable and able to answer your
+questions about the food and beverages? </string>
+    <string name="ans1_q2">Yes </string>
+    <string name="ans2_q2">No </string>
+    <string name="ans3_q2">N/A </string>
+
+
+    <string name="q4_header">Beverages </string>
+    <string name="q4_text">Which type of beverage do you prefer: </string>
+
+
+
+
+    <string-array name="allBev_array">
+        <item>Please choose: </item>
+        <item>Red Wine</item>
+        <item>White Wine</item>
+        <item>Coctail</item>
+        <item>Coffee</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string name="q4_text2">It would be absolutely wonderful if you could share with us one of your favorites, e.g. Cabernet Savignon or Caffè Macchiato. </string>
+    <string name="bev_insert">YOUR FAVORITE BAVERAGE IS... </string>
+
+    <string name="q5_text">Would you recommend us to your: </string>
+    <string name="ans1_q4">Family </string>
+    <string name="ans2_q4">Friends </string>
+    <string name="ans3_q4">Colleagues </string>
+    <string name="ans4_q4">No one </string>
+    <string name="ans5_q4">Other </string>
+
+
+    <string name="q6_text"> Thank you for completing the survey. Please submit your results via email. </string>
+
+    <string name="q7_text">Have a nice day! </string>
+
+
+
+    <string name="summary1"> \n Customer name: \u0020 </string>
+<string name="summary2">\n First time here: \u0020</string>
+<string name="summary3">\n Frequent visitor:  \u0020 </string>
+    <string name="summary4">\n Additional feedback on frequency of the visits: \u0020 </string>
+    <string name="summary5">\n 1. Feedback on servers: Were the servers attentive and available when you needed them? \u0020   </string>
+    <string name="summary6">\n 2. Feedback on servers: Was your server knowledgeable and able to answer your
+questions about the food and beverages? \u0020 </string>
+    <string name="summary7">\n Type of beverage preferred:  \u0020</string>
+    <string name="summary8">\n Favorite beverage:  \u0020</string>
+    <string name="summary9">\n Recommendations to: family, friends, coworkers, no one, others-->\u0020\u0020\u0020  </string>
+    <string name="summary10">\n Additional recommendation : \u0020 </string>
+
+
+    <string name="pleaseChooseString"> Please choose: </string>
+
+    <string name="mail_header"> Hello! Here are the results of the survey:  </string>
+    <string name="first_time_customer">First time customer</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="send">Send</string>
+
+    <string name="welcome1_land">Welcome, dear customer! </string>
+    <string name="logo_sub">GastroBar+1</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/RL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bglogo1">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RL1"
+            android:background="@drawable/bglogo2">
+
+            <TextView
+                android:id="@+id/welcome_text1"
+                style="@style/biggerTextStyle"
+                android:gravity="center"
+                android:text="@string/welcome1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RL2"
+            android:background="@drawable/bglogo3">
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/RL3"
+            android:background="@drawable/bglogo4">
+
+            <TextView
+                android:id="@+id/welcome_text2"
+                style="@style/smallerTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin20"
+                android:gravity="center"
+                android:text="@string/welcome2" />
+
+            <Button
+                android:id="@+id/proceed_button"
+                style="@style/ProceedButtonStyle"
+                android:layout_below="@id/welcome_text2"
+                android:drawableTop="@drawable/arrowr"
+                android:onClick="beginTheSurvey"
+                android:text="@string/button_proceed"
+                android:layout_alignParentRight="true"/>
+
+            <Button
+                android:id="@+id/exit_button"
+                style="@style/exitButtonStyle"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:drawableLeft="@drawable/door"
+                android:onClick="surveyFinal"
+                android:text="@string/button_no"
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

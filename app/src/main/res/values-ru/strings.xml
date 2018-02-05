@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ГастроБар+1.Опрос</string>
+    <string name="welcome1">Добро пожаловать, дорогой посетитель!</string>
+    <string name="welcome2">Пожалуйста, примите участие в нашем опросе.</string>
+    <string name="button_proceed">Начать</string>
+    <string name="button_no">Нет, спасибо</string>
+    <string name="text1">"Спасибо, что нашли время принять участие в опросе. Анализ ответов поможет нам улучшить качество наших услуг.  "</string>
+    <string name="name_insert">Пожалуйста, введите имя</string>
+    <string name="q1">Как часто Вы нас посещаете?</string>
+    <string name="ans1_q1">Каждый день</string>
+    <string name="ans2_q1">Несколько раз в неделю</string>
+    <string name="ans3_q1">Несколько раз в месяц</string>
+    <string name="ans4_q1">Раз в три месяца</string>
+    <string name="ans5_q1">Другое</string>
+    <string name="if_no_action">Пожалуйста, выберите один из предложенных выше вариантов</string>
+    <string name="q2_header">Обслуживающий персонал</string>
+    <string name="q2_text">Были ли официанты внимательными и доступными, когда вы нуждались в них?</string>
+    <string name="q3_text">" Был ли ваш официант хорошо осведомлен и способен ответить на Ваши вопросы о еде и напитках?"</string>
+    <string name="ans1_q2">Да</string>
+    <string name="ans2_q2">Нет</string>
+    <string name="ans3_q2">н/п</string>
+    <string name="q4_header">Напитки</string>
+    <string name="q4_text">Какой вид напитков Вы предпочитаете?</string>
+    <string name="q4_text2">Это было бы просто чудесно если бы Вы написали нам название своего любимого напитка. Например, Каберне Савиньон или Маккиато</string>
+    <string name="bev_insert">Ваш любимый напиток это....</string>
+    <string name="q5_text">Порекомендуете ли Вы нас своим:</string>
+    <string name="ans1_q4">Родственникам</string>
+    <string name="ans2_q4">Друзьям</string>
+    <string name="ans3_q4">Коллегам</string>
+    <string name="ans4_q4">Никому</string>
+    <string name="ans5_q4">Другое</string>
+    <string name="q6_text">Спасибоза участие в опросе. ПОжалуйста, пошлите результаты по электронной почте.</string>
+    <string name="q7_text">Желаем хорошего дня!</string>
+    <string name="mail_header">Здравствуйте, это результаты опроса :</string>
+    <string name="pleaseChooseString">Пожалуйста, выберите</string>
+    <string name="summary1">"Имя посетителя: "</string>
+    <string name="summary2">"В первый раз здесь: "</string>
+    <string name="summary3">"Частый посетитель: "</string>
+    <string name="summary4">"Дополнительная информация по вопросу о частоте визитов: "</string>
+    <string name="summary5">Были ли официанты внимательными и доступными, когда вы нуждались в них?</string>
+    <string name="summary6">" Был ли ваш официант хорошо осведомлен и способен ответить на Ваши вопросы о еде и напитках?"</string>
+    <string name="summary7">"Любимый вид напитков: "</string>
+    <string name="summary8">Любимый напиток:</string>
+    <string name="summary9">"Рекомендация родственникам, друзьям, коллегам, никому, другое: "</string>
+    <string name="summary10">"Дополнительно о рекомендации: "</string>
+    <string name="first_time_customer">Это Ваш первый визит </string>
+    <string name="next">Далее</string>
+    <string name="previous">Назад</string>
+    <string name="send">Послать</string>
+
+
+    <string-array name="allBev_array">
+        <item>Пожалуйста, выберите: </item>
+        <item>Красное вино</item>
+        <item>Белое вино</item>
+        <item>Коктейль</item>
+        <item>Кофе</item>
+        <item>Другое</item>
+
+    </string-array>
+
+
+
+</resources>
