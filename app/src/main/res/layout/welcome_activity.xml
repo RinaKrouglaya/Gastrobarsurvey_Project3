@@ -34,7 +34,9 @@
             android:id="@+id/RL3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/RL2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/RL2"
             android:background="@drawable/bglogo3">
 
 
@@ -43,7 +45,7 @@
         <RelativeLayout
             android:id="@+id/RL4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@id/RL3"
             android:background="@drawable/bglogo4">
 
@@ -59,24 +61,27 @@
             <Button
                 android:id="@+id/proceed_button"
                 style="@style/ProceedButtonStyle"
+                android:layout_alignParentRight="true"
                 android:layout_below="@id/welcome_text2"
                 android:drawableTop="@drawable/arrowr"
                 android:onClick="beginTheSurvey"
-                android:text="@string/button_proceed"
-                android:layout_alignParentRight="true"/>
+                android:text="@string/button_proceed" />
 
             <Button
                 android:id="@+id/exit_button"
                 style="@style/exitButtonStyle"
-                android:layout_alignParentBottom="true"
                 android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/center_dimension"
                 android:drawableLeft="@drawable/door"
                 android:onClick="surveyFinal"
-                android:text="@string/button_no"
-                />
+                android:text="@string/button_no" />
 
         </RelativeLayout>
 
-
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_below="@id/RL4"
+            android:background="@drawable/bglogo5"></RelativeLayout>
     </RelativeLayout>
 </ScrollView>
