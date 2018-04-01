@@ -66,7 +66,6 @@
     </style>
 
     <style name="LowerButtonsStyle">
-        <item name="android:fontFamily">casual</item>
         <item name="android:textSize">@dimen/minTextSize</item>
         <item name="android:textColor">@color/textBrownColor</item>
         <item name="android:gravity">center</item>
@@ -81,8 +80,7 @@
 
 
     <style name="ProceedButtonStyle">
-        <item name="android:fontFamily">casual</item>
-        <item name="android:textSize">@dimen/minTextSize</item>
+              <item name="android:textSize">@dimen/minTextSize</item>
         <item name="android:textColor">@color/textBrownColor</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
@@ -99,7 +97,7 @@
     </style>
 
     <style name="exitButtonStyle">
-        <item name="android:fontFamily">casual</item>
+
         <item name="android:textSize">@dimen/verySmallTextSize</item>
         <item name="android:textColor">@color/textBrownColor</item>
         <item name="android:layout_height">wrap_content</item>
@@ -114,7 +112,7 @@
 
 
     <style name="entryButtonStyle">
-        <item name="android:fontFamily">casual</item>
+
         <item name="android:textSize">@dimen/smallerTextSize</item>
         <item name="android:textColor">@color/textBrownColor</item>
         <item name="android:layout_height">wrap_content</item>
@@ -122,7 +120,7 @@
         <item name="android:textStyle">italic|bold</item>
         <item name="android:gravity">center</item>
         <item name="android:inputType">textCapWords</item>
-        <item name="android:textColorHint"></item>
+        <item name="android:textColorHint">@color/hintColor</item>
         <item name="android:layout_margin">@dimen/inner_margin</item>
     </style>
 
